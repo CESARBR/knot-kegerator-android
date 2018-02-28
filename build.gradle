@@ -4,6 +4,7 @@ buildscript {
     ext.versions = [
             'kotlin' : '1.2.21',
             'support' : '26.1.0',
+            'dagger' : '2.14.1',
             'junit' : '4.12',
             'test_runner' : '1.0.1',
             'expresso' : '3.0.1'
