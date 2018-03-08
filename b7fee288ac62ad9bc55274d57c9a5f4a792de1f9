@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "daf47311_f9fc4b1a",
+        "filename": ".idea/fileTemplates/includes/File Header.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1012786
+      },
+      "writtenOn": "2018-03-08T19:41:49Z",
+      "side": 1,
+      "message": "Do you think we need to include full license here? Maybe just copyright info.",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 3
+      },
+      "revId": "b7fee288ac62ad9bc55274d57c9a5f4a792de1f9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
