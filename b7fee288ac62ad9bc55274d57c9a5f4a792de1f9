@@ -22,6 +22,30 @@
       "revId": "b7fee288ac62ad9bc55274d57c9a5f4a792de1f9",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fe85eec3_e838f3ae",
+        "filename": ".idea/fileTemplates/includes/File Header.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-12T12:51:08Z",
+      "side": 1,
+      "message": "I was following the way it is done in knotd:https://github.com/CESARBR/knot-service-source/blob/master/src/dbus.h\n\nIn the projects I\u0027m writing from scratch I don\u0027t add any header, just the license file. I don\u0027t know what it is required or not. What do you think?",
+      "parentUuid": "daf47311_f9fc4b1a",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 3
+      },
+      "revId": "b7fee288ac62ad9bc55274d57c9a5f4a792de1f9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
