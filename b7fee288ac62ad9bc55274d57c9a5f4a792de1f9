@@ -46,6 +46,30 @@
       "revId": "b7fee288ac62ad9bc55274d57c9a5f4a792de1f9",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ef49ba9c_c7937e53",
+        "filename": ".idea/fileTemplates/includes/File Header.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1012786
+      },
+      "writtenOn": "2018-03-12T13:22:16Z",
+      "side": 1,
+      "message": "I did a quick search on other open source projects and it seems there isn\u0027t a rule or pattern to follow. Some of them put a link to the license file or just the license type. And some others do as you did. \n\nLet\u0027s keep it as is.",
+      "parentUuid": "fe85eec3_e838f3ae",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 3
+      },
+      "revId": "b7fee288ac62ad9bc55274d57c9a5f4a792de1f9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
