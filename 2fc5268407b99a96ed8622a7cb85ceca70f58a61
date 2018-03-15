@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "99308cd4_209af46d",
+        "filename": "app/src/main/kotlin/br/org/cesar/knot/kegerator/domain/interactor/UseCase.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-15T20:10:35Z",
+      "side": 1,
+      "message": "What do you think of `Result` instead of `T`?\n\nCan I specify void for T or Params?",
+      "revId": "2fc5268407b99a96ed8622a7cb85ceca70f58a61",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae5587fb_17b6fa00",
+        "filename": "app/src/main/kotlin/br/org/cesar/knot/kegerator/domain/interactor/UseCase.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-15T20:10:35Z",
+      "side": 1,
+      "message": "Is this nullable needed?",
+      "revId": "2fc5268407b99a96ed8622a7cb85ceca70f58a61",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bb47fe4d_8873c718",
+        "filename": "app/src/main/kotlin/br/org/cesar/knot/kegerator/domain/model/Keg.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-15T20:10:35Z",
+      "side": 1,
+      "message": "If you define a constructor that receives the three parameters, maybe it doesn\u0027t need to be nullable. Does it block any use case?",
+      "revId": "2fc5268407b99a96ed8622a7cb85ceca70f58a61",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ed9b25a_234d9f2b",
+        "filename": "app/src/main/kotlin/br/org/cesar/knot/kegerator/domain/repository/KegRepository.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-15T20:10:35Z",
+      "side": 1,
+      "message": "Could be simply `getList()` or `list()` (vs `get()` for a single keg, or even get() for both).\n\nEvery call in this interface will relate to keg.",
+      "revId": "2fc5268407b99a96ed8622a7cb85ceca70f58a61",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
