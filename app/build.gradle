@@ -30,6 +30,10 @@ dependencies {
     implementation "io.reactivex.rxjava2:rxkotlin:${versions.rx_kotlin}"
     // Android Support
     implementation "com.android.support:appcompat-v7:${versions.support}"
+    // Retrofit 2
+    implementation "com.squareup.retrofit2:retrofit:${versions.retrofit}"
+    implementation "com.squareup.retrofit2:converter-gson:${versions.retrofit}"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:${versions.retrofit}"
     // Tests
     testImplementation "junit:junit:${versions.junit}"
     testImplementation "com.nhaarman:mockito-kotlin:${versions.mockito_kotlin}"

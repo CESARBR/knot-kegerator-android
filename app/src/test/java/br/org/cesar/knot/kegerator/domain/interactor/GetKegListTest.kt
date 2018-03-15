@@ -1,6 +1,5 @@
 package br.org.cesar.knot.kegerator.domain.interactor
 
-
 import br.org.cesar.knot.kegerator.domain.executor.PostExecutionThread
 import br.org.cesar.knot.kegerator.domain.executor.ThreadExecutor
 import br.org.cesar.knot.kegerator.domain.model.Keg
