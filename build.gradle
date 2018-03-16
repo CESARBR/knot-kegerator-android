@@ -6,7 +6,8 @@ buildscript {
             'support' : '26.1.0',
             'junit' : '4.12',
             'test_runner' : '1.0.1',
-            'expresso' : '3.0.1'
+            'expresso' : '3.0.1',
+            'retrofit' : '2.4.0'
     ]
     repositories {
         google()
