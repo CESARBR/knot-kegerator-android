@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "6975cb76_0a8c3a8d",
+        "filename": "app/src/main/kotlin/br/org/cesar/knot/kegerator/domain/interactor/UseCase.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1012786
+      },
+      "writtenOn": "2018-03-16T08:58:13Z",
+      "side": 1,
+      "message": "1) Done.\n2) Yes. We can specify Void for both Result and Params.",
+      "parentUuid": "99308cd4_209af46d",
+      "revId": "2fc5268407b99a96ed8622a7cb85ceca70f58a61",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ae5587fb_17b6fa00",
         "filename": "app/src/main/kotlin/br/org/cesar/knot/kegerator/domain/interactor/UseCase.kt",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2018-03-15T20:10:35Z",
       "side": 1,
       "message": "Is this nullable needed?",
+      "revId": "2fc5268407b99a96ed8622a7cb85ceca70f58a61",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ed170688_58c89ef6",
+        "filename": "app/src/main/kotlin/br/org/cesar/knot/kegerator/domain/interactor/UseCase.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1012786
+      },
+      "writtenOn": "2018-03-16T08:58:13Z",
+      "side": 1,
+      "message": "I\u0027m not sure. Examples always use nullable in this case. I\u0027m going to investigate.",
+      "parentUuid": "ae5587fb_17b6fa00",
       "revId": "2fc5268407b99a96ed8622a7cb85ceca70f58a61",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "bb774e72_5e41cc34",
+        "filename": "app/src/main/kotlin/br/org/cesar/knot/kegerator/domain/model/Keg.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1012786
+      },
+      "writtenOn": "2018-03-16T08:58:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bb47fe4d_8873c718",
+      "revId": "2fc5268407b99a96ed8622a7cb85ceca70f58a61",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1ed9b25a_234d9f2b",
         "filename": "app/src/main/kotlin/br/org/cesar/knot/kegerator/domain/repository/KegRepository.kt",
         "patchSetId": 1
@@ -64,6 +118,24 @@
       "writtenOn": "2018-03-15T20:10:35Z",
       "side": 1,
       "message": "Could be simply `getList()` or `list()` (vs `get()` for a single keg, or even get() for both).\n\nEvery call in this interface will relate to keg.",
+      "revId": "2fc5268407b99a96ed8622a7cb85ceca70f58a61",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d4d8cd17_019665fd",
+        "filename": "app/src/main/kotlin/br/org/cesar/knot/kegerator/domain/repository/KegRepository.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1012786
+      },
+      "writtenOn": "2018-03-16T08:58:13Z",
+      "side": 1,
+      "message": "I think `list()` is cleaner.",
+      "parentUuid": "1ed9b25a_234d9f2b",
       "revId": "2fc5268407b99a96ed8622a7cb85ceca70f58a61",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
