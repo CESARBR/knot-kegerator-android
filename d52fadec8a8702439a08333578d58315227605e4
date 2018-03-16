@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "221ee87a_1ab40315",
+        "filename": "app/src/main/java/br/org/cesar/knot/kegerator/data/remote/RestApi.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-16T17:26:17Z",
+      "side": 1,
+      "message": "Will this point to a resource or it should be replaced with the actual URI?",
+      "revId": "d52fadec8a8702439a08333578d58315227605e4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1c9e494b_da82f5ae",
+        "filename": "app/src/main/java/br/org/cesar/knot/kegerator/data/repository/KegDataRepository.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-16T17:26:17Z",
+      "side": 1,
+      "message": "Should the remote be created for each call? Could and would it be better if KegDataRepository receive the remote?",
+      "revId": "d52fadec8a8702439a08333578d58315227605e4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}

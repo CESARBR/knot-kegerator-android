@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "82e633ce_19d093ce",
+        "filename": "app/src/test/java/br/org/cesar/knot/kegerator/domain/interactor/GetKegListTest.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-16T17:26:17Z",
+      "side": 0,
+      "message": "Could you include it in the previous patch?",
+      "revId": "0111d700946b349b23097f3dbf30b1ddbb2b4649",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
