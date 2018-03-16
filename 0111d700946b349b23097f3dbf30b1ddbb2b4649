@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "00ee979a_9ebc8e2c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-16T17:21:35Z",
+      "side": 1,
+      "message": "Should we include it? What if there isn\u0027t a issue (or it should never happen?)?",
+      "revId": "0111d700946b349b23097f3dbf30b1ddbb2b4649",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2cc7d584_8de9f78e",
+        "filename": "app/src/main/java/br/org/cesar/knot/kegerator/domain/interactor/UseCase.kt",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-16T17:21:35Z",
+      "side": 1,
+      "message": "Mind the offline discussions.",
+      "revId": "0111d700946b349b23097f3dbf30b1ddbb2b4649",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
