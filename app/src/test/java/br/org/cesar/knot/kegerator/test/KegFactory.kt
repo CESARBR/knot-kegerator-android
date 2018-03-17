@@ -1,9 +1,9 @@
-package br.org.cesar.knot.kegerator.domain.test
+package br.org.cesar.knot.kegerator.test
 
 import br.org.cesar.knot.kegerator.domain.model.Keg
-import br.org.cesar.knot.kegerator.domain.test.DataFactory.Factory.randomInt
-import br.org.cesar.knot.kegerator.domain.test.DataFactory.Factory.randomUuid
-import java.util.*
+import br.org.cesar.knot.kegerator.test.DataFactory.Factory.randomInt
+import br.org.cesar.knot.kegerator.test.DataFactory.Factory.randomString
+import br.org.cesar.knot.kegerator.test.DataFactory.Factory.randomUuid
 
 class KegFactory {
 
@@ -18,7 +18,7 @@ class KegFactory {
         }
 
         fun makeKeg(): Keg {
-            return Keg(UUID.randomUUID(), randomUuid(), randomInt())
+            return Keg(randomUuid(), randomString(), randomInt())
         }
 
     }

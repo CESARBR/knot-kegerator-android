@@ -2,7 +2,7 @@ package br.org.cesar.knot.kegerator.domain.interactor
 
 import br.org.cesar.knot.kegerator.domain.model.Keg
 import br.org.cesar.knot.kegerator.domain.repository.KegRepository
-import br.org.cesar.knot.kegerator.domain.test.KegFactory
+import br.org.cesar.knot.kegerator.test.KegFactory
 import com.nhaarman.mockito_kotlin.mock
 import com.nhaarman.mockito_kotlin.verify
 import com.nhaarman.mockito_kotlin.whenever
