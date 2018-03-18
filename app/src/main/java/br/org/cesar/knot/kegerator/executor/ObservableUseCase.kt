@@ -10,7 +10,7 @@ import io.reactivex.disposables.Disposable
 /**
  * Wrapper class to execute uses cases considering subscribe/observe threads
  */
-class ObservableUseCase<Result, in Params> constructor(
+open class ObservableUseCase<Result, in Params> constructor(
         private val useCase: UseCase<Result, Params>,
         private val threadExecutor: ThreadExecutor,
         private val postExecutionThread: PostExecutionThread
