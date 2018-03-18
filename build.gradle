@@ -4,6 +4,7 @@ buildscript {
     ext.versions = [
             'kotlin' : '1.2.30',
             'support' : '26.1.0',
+            'constraint_layout' : '1.0.2',
             'junit' : '4.12',
             'test_runner' : '1.0.1',
             'expresso' : '3.0.1',
@@ -12,7 +13,8 @@ buildscript {
             'rx_java' : '2.1.10',
             "mockito_kotlin" : '1.5.0',
             'retrofit' : '2.4.0',
-            'okhttp' : '3.10.0'
+            'okhttp' : '3.10.0',
+            'lifecycle' : '1.1.0'
     ]
     repositories {
         google()
