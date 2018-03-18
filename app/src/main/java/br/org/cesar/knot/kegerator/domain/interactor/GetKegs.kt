@@ -7,7 +7,7 @@ import io.reactivex.Single
 /**
  * Use case for retrieving [Keg] instances from the [KegRepository]
  */
-class GetKegs constructor(
+open class GetKegs constructor(
         private val kegRepository: KegRepository
 ): UseCase<List<Keg>, Void?>() {
 
