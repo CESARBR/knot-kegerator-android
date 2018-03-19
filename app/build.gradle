@@ -26,10 +26,14 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     // Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:${versions.kotlin}"
+    // Rx
+    implementation "io.reactivex.rxjava2:rxkotlin:${versions.rx_kotlin}"
     // Android Support
     implementation "com.android.support:appcompat-v7:${versions.support}"
     // Tests
     testImplementation "junit:junit:${versions.junit}"
+    testImplementation "com.nhaarman:mockito-kotlin:${versions.mockito_kotlin}"
     androidTestImplementation "com.android.support.test:runner:${versions.test_runner}"
     androidTestImplementation "com.android.support.test.espresso:espresso-core:${versions.expresso}"
+    compile 'junit:junit:4.12'
 }
