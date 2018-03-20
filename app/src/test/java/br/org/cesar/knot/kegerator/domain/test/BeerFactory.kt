@@ -2,7 +2,7 @@ package br.org.cesar.knot.kegerator.domain.test
 
 import br.org.cesar.knot.kegerator.domain.model.Beer
 import br.org.cesar.knot.kegerator.domain.test.DataFactory.Factory.randomString
-import java.util.UUID
+import br.org.cesar.knot.kegerator.domain.test.DataFactory.Factory.randomUuid
 
 class BeerFactory {
 
@@ -17,7 +17,7 @@ class BeerFactory {
         }
 
         fun makeBeer(): Beer {
-            return Beer(UUID.randomUUID(), randomString(), randomString(), randomString())
+            return Beer(randomUuid(), randomString(), randomString(), randomString())
         }
 
     }

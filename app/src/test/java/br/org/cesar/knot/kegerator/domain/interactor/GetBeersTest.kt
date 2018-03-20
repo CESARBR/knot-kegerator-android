@@ -1,8 +1,6 @@
 package br.org.cesar.knot.kegerator.domain.test
 
-import br.org.cesar.knot.kegerator.domain.executor.PostExecutionThread
-import br.org.cesar.knot.kegerator.domain.executor.ThreadExecutor
-import br.org.cesar.knot.kegerator.domain.interactor.GetBeerList
+import br.org.cesar.knot.kegerator.domain.interactor.GetBeers
 import br.org.cesar.knot.kegerator.domain.model.Beer
 import br.org.cesar.knot.kegerator.domain.repository.BeerRepository
 import com.nhaarman.mockito_kotlin.mock
@@ -13,32 +11,27 @@ import io.reactivex.Single
 import org.junit.Before
 import org.junit.Test
 
-class GetBeerListTest {
+class GetBeersTest {
 
-    private lateinit var getBeerList: GetBeerList
-    private lateinit var mockThreadExecutor: ThreadExecutor
-    private lateinit var mockPostExecutionThread: PostExecutionThread
+    private lateinit var getBeerList: GetBeers
     private lateinit var mockBeerRepository: BeerRepository
 
     @Before
     fun setup() {
-
-        mockThreadExecutor = mock()
-        mockPostExecutionThread = mock()
         mockBeerRepository = mock()
-        getBeerList = GetBeerList(mockThreadExecutor, mockPostExecutionThread, mockBeerRepository)
+        getBeerList = GetBeers(mockBeerRepository)
     }
 
     @Test
     fun `should call repository`() {
-        getBeerList.buildUseCaseObservable()
+        getBeerList.execute()
         verify(mockBeerRepository).list()
     }
 
     @Test
     fun `should receive one onComplete event`() {
         stubBeerRepositoryList(Single.just(BeerFactory.makeBeerList(2)))
-        val testObserver = getBeerList.buildUseCaseObservable().test()
+        val testObserver = getBeerList.execute().test()
         testObserver.assertComplete()
     }
 
@@ -46,7 +39,7 @@ class GetBeerListTest {
     fun `should return data`() {
         val beers = BeerFactory.makeBeerList(2)
         stubBeerRepositoryList(Single.just(beers))
-        val testObserver = getBeerList.buildUseCaseObservable().test()
+        val testObserver = getBeerList.execute().test()
         testObserver.assertValue(beers)
     }
 

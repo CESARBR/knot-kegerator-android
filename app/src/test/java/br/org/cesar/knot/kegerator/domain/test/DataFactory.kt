@@ -1,5 +1,7 @@
 package br.org.cesar.knot.kegerator.domain.test
 
+import java.util.UUID
+
 /**
  * Factory class for data instances
  */
@@ -7,8 +9,8 @@ class DataFactory {
 
     companion object Factory {
 
-        fun randomUuid(): String {
-            return java.util.UUID.randomUUID().toString()
+        fun randomUuid(): UUID {
+            return java.util.UUID.randomUUID()
         }
 
         fun randomInt(): Int {
