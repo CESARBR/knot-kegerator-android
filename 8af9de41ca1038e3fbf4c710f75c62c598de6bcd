@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "65bf713a_88cb7ee4",
+        "filename": "app/build.gradle",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-22T22:27:13Z",
+      "side": 1,
+      "message": "Should this be added previously? Aren\u0027t we using Rx since the first or second commit?",
+      "revId": "8af9de41ca1038e3fbf4c710f75c62c598de6bcd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
