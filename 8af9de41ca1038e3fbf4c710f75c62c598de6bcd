@@ -16,6 +16,24 @@
       "revId": "8af9de41ca1038e3fbf4c710f75c62c598de6bcd",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f0bac216_d4626a9e",
+        "filename": "app/build.gradle",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1012786
+      },
+      "writtenOn": "2018-03-22T23:30:27Z",
+      "side": 1,
+      "message": "Actually, this is the first commit that needs RxAndroid and its documentation asks to explicitly depend on RxJava\u0027s latest version. (Please refer to https://github.com/ReactiveX/RxAndroid)",
+      "parentUuid": "65bf713a_88cb7ee4",
+      "revId": "8af9de41ca1038e3fbf4c710f75c62c598de6bcd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
