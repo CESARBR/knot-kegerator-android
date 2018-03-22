@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "905b2c1a_1db5c7b0",
+        "filename": "app/src/main/java/br/org/cesar/knot/kegerator/data/remote/mapper/KegEntityMapper.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-22T23:11:33Z",
+      "side": 1,
+      "message": "Rename it to KegDataMapper. Is there any other component named after KegEntity?",
+      "revId": "2b7c18bd0d79881f4a804ad17cbf791f25a74d8b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ec2d50ea_10a60d8c",
         "filename": "app/src/test/java/br/org/cesar/knot/kegerator/data/remote/RestApiTest.kt",
         "patchSetId": 1
