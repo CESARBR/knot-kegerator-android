@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ec2d50ea_10a60d8c",
+        "filename": "app/src/test/java/br/org/cesar/knot/kegerator/data/remote/RestApiTest.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-22T22:00:26Z",
+      "side": 1,
+      "message": "Should this be private?",
+      "revId": "2b7c18bd0d79881f4a804ad17cbf791f25a74d8b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
