@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "61945960_cf78496d",
+        "filename": "app/src/main/java/br/org/cesar/knot/kegerator/data/repository/KegGateway.kt",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-22T21:49:02Z",
+      "side": 1,
+      "message": "See my previous comment on this. Could we receive the dataSource in the constructor instead of creating it?",
+      "revId": "9799f4b65aa2b9b34b4710bcd45f7fa31528f635",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d0b98962_c171b0b0",
+        "filename": "app/src/test/java/br/org/cesar/knot/kegerator/data/repository/KegGatewayTest.kt",
+        "patchSetId": 3
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-22T21:49:02Z",
+      "side": 1,
+      "message": "If we pass the data source instead of the factory to the gateway, we won\u0027t need this.",
+      "revId": "9799f4b65aa2b9b34b4710bcd45f7fa31528f635",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "251ab9d1_5847fc2a",
+        "filename": "app/src/test/java/br/org/cesar/knot/kegerator/domain/test/DataFactory.kt",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-22T21:49:02Z",
+      "side": 1,
+      "message": "Can this move (and the other files) be done in the previous patch?",
+      "revId": "9799f4b65aa2b9b34b4710bcd45f7fa31528f635",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
