@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3bc4b335_307dc16d",
+        "filename": "app/src/main/java/br/org/cesar/knot/kegerator/presentation/keg/KegsPresenter.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1013086
+      },
+      "writtenOn": "2018-03-22T23:10:00Z",
+      "side": 1,
+      "message": "We\u0027ll probably need a gateway or something similar to access string resources, right? Or should we have predefined errors states and predefined viewModel methods for each state, leaving the resource lookup to the view layer?",
+      "revId": "93a3947a697f5611b125728182347eacdbcaee0e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
