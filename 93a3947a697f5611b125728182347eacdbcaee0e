@@ -16,6 +16,24 @@
       "revId": "93a3947a697f5611b125728182347eacdbcaee0e",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ab8c0eb_85ac1c3c",
+        "filename": "app/src/main/java/br/org/cesar/knot/kegerator/presentation/keg/KegsPresenter.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1012786
+      },
+      "writtenOn": "2018-03-24T11:00:59Z",
+      "side": 1,
+      "message": "Yeah, I think a ResourcesGateway is probably the best approach indeed. In that way, testing the presenter shouldn\u0027t require any fancy lib (like Robolectric) to load resources and the ViewModel just need to handle primitive types. \n\nBut I\u0027m not sure yet which package that gateway should be, especially because resources can be used for other purposes beyond presentation. Could we delay that decision? I may have an answer before ending setup flow.",
+      "parentUuid": "3bc4b335_307dc16d",
+      "revId": "93a3947a697f5611b125728182347eacdbcaee0e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
