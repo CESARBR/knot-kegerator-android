@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "e5430cd0_e6d28943",
+        "filename": "app/src/main/java/br/org/cesar/knot/kegerator/data/remote/mapper/KegEntityMapper.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1012786
+      },
+      "writtenOn": "2018-03-24T10:24:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "905b2c1a_1db5c7b0",
+      "revId": "2b7c18bd0d79881f4a804ad17cbf791f25a74d8b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ec2d50ea_10a60d8c",
         "filename": "app/src/test/java/br/org/cesar/knot/kegerator/data/remote/RestApiTest.kt",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2018-03-22T22:00:26Z",
       "side": 1,
       "message": "Should this be private?",
+      "revId": "2b7c18bd0d79881f4a804ad17cbf791f25a74d8b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0db9f0eb_61be278f",
+        "filename": "app/src/test/java/br/org/cesar/knot/kegerator/data/remote/RestApiTest.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1012786
+      },
+      "writtenOn": "2018-03-24T10:24:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ec2d50ea_10a60d8c",
       "revId": "2b7c18bd0d79881f4a804ad17cbf791f25a74d8b",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
