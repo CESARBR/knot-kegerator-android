@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "7e09b989_35ad3c7c",
+        "filename": "app/src/main/java/br/org/cesar/knot/kegerator/data/repository/KegGateway.kt",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1012786
+      },
+      "writtenOn": "2018-03-24T09:45:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "61945960_cf78496d",
+      "revId": "9799f4b65aa2b9b34b4710bcd45f7fa31528f635",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c3c30358_ed7aecfc",
         "filename": "app/src/main/java/br/org/cesar/knot/kegerator/data/repository/model/KegEntity.kt",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2018-03-22T23:10:45Z",
       "side": 1,
       "message": "Rename to KegData",
+      "revId": "9799f4b65aa2b9b34b4710bcd45f7fa31528f635",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e44803b5_8c32195c",
+        "filename": "app/src/main/java/br/org/cesar/knot/kegerator/data/repository/model/KegEntity.kt",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012786
+      },
+      "writtenOn": "2018-03-24T09:45:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c3c30358_ed7aecfc",
       "revId": "9799f4b65aa2b9b34b4710bcd45f7fa31528f635",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "53b31e71_3e8a67bc",
+        "filename": "app/src/test/java/br/org/cesar/knot/kegerator/data/repository/KegGatewayTest.kt",
+        "patchSetId": 3
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1012786
+      },
+      "writtenOn": "2018-03-24T09:45:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d0b98962_c171b0b0",
+      "revId": "9799f4b65aa2b9b34b4710bcd45f7fa31528f635",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "251ab9d1_5847fc2a",
         "filename": "app/src/test/java/br/org/cesar/knot/kegerator/domain/test/DataFactory.kt",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2018-03-22T21:49:02Z",
       "side": 1,
       "message": "Can this move (and the other files) be done in the previous patch?",
+      "revId": "9799f4b65aa2b9b34b4710bcd45f7fa31528f635",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6a45eda3_f5989ad4",
+        "filename": "app/src/test/java/br/org/cesar/knot/kegerator/domain/test/DataFactory.kt",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012786
+      },
+      "writtenOn": "2018-03-24T09:45:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "251ab9d1_5847fc2a",
       "revId": "9799f4b65aa2b9b34b4710bcd45f7fa31528f635",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
