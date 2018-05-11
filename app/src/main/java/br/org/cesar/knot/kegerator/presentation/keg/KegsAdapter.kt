@@ -7,10 +7,16 @@ import android.view.ViewGroup
 import android.widget.TextView
 import br.org.cesar.knot.kegerator.R
 import br.org.cesar.knot.kegerator.presentation.model.KegModel
+import io.reactivex.Observable
+import io.reactivex.subjects.PublishSubject
 
 class KegsAdapter constructor(): RecyclerView.Adapter<KegsAdapter.ViewHolder>() {
 
     var kegs: List<KegModel> = arrayListOf()
+
+    private val clickSubject = PublishSubject.create<KegModel>()
+
+    val clickEvent: Observable<KegModel> = clickSubject
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val keg = kegs[position]
@@ -34,7 +40,12 @@ class KegsAdapter constructor(): RecyclerView.Adapter<KegsAdapter.ViewHolder>() 
         init {
             nameText = view.findViewById(R.id.keg_name)
             weightText = view.findViewById(R.id.keg_weight)
+
+            view.setOnClickListener {
+                clickSubject.onNext(kegs[layoutPosition])
+            }
         }
+
     }
 
 }
