@@ -46,6 +46,11 @@ class KegsFragment : Fragment(), KegsContract.View {
         super.onViewCreated(view, savedInstanceState)
 
         mKegsAdapter = KegsAdapter()
+
+        mKegsAdapter.clickEvent.subscribe {
+            mListener?.onKegSelected(it)
+        }
+
         recycler_kegs.layoutManager = LinearLayoutManager(activity)
         recycler_kegs.adapter = mKegsAdapter
 

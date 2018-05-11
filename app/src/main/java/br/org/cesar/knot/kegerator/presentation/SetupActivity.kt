@@ -14,6 +14,8 @@ class SetupActivity : AppCompatActivity(), KegsFragment.OnKegSelectedListener {
         fun newIntent(context: Context) = Intent(context, SetupActivity::class.java)
     }
 
+    private lateinit var mKegModel: KegModel;
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_setup)
@@ -27,7 +29,12 @@ class SetupActivity : AppCompatActivity(), KegsFragment.OnKegSelectedListener {
     }
 
     override fun onKegSelected(kegModel: KegModel) {
-        TODO("not implemented, next fragment to be added here")
+        mKegModel = kegModel
+        next()
+    }
+
+    fun next() {
+        // TODO("not implemented, next fragment to be added here")
         /*
         val transaction = supportFragmentManager.beginTransaction()
         val secondFragment = FragmentTwo()
